@@ -1,4 +1,4 @@
-values = [1,2.23,5,7,2,30,15]
-
-print(values[0])
-print(values[6])
+bill=int(input("how much is the bill?"))
+print(bill * 1.025)
+def add(x,y):
+    return x + y
