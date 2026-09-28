@@ -1,2 +1,7 @@
 def bill():
-    int(input("how much was the bill"))
+    return float(input("how much was the bill"))
+
+def tip():
+    return[bill * 1.00, bill * 1.15, bill * 1.20, bill * 1.25]
+
+x=(input("how much was the bill?"))
