@@ -1,4 +1,7 @@
-bill=int(input("how much is the bill?"))
-print(bill * 1.025)
-def add(x,y):
-    return x + y
+import random
+x = random.randint (1,100)
+print (x)
+if x % 2 ==0:
+    print("even")
+else:
+    print("odd")

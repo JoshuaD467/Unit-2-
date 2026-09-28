@@ -1,0 +1,2 @@
+def bill():
+    int(input("how much was the bill"))
