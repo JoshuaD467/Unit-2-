@@ -1,0 +1,7 @@
+def spaces(N,Y,T):
+    def count_spaces():
+        for i in range(N):
+            if Y[i] =="C" and T[i]=="C":
+                count_spaces=+1
+
+spaces(5,"C.CCC", "CC.C.")  
