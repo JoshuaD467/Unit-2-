@@ -1,0 +1,1 @@
+bill= int(print("How much was the bill"))
