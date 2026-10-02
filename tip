@@ -1,1 +1,16 @@
-bill= int(print("How much was the bill"))
+x = (float(input("How much was the bil?")))
+tip = [1.05,1.10,1.20,1.25]
+service = input("How was the Service? [Bad,Okay,Good,Great]")
+
+if service == "Bad":
+    print ("The tip is 5%.")
+    print(f"The total cost is {x * tip[0]}.")
+elif service == "Okay":
+    print ("The Tip is 10%.")
+    print (f"The total cost is {x * tip[1]}.")
+elif service == "Good":
+    print ("The tip is 20%.")
+    print (f"The total cost is {x * tip[2]}.")
+elif service == "Great":
+    print ("The tip is 25%.")
+    print (f"The toal cost is {x * tip[3]}.")

@@ -2,6 +2,5 @@ import math
 x = int(input("Enter the first number: "))
 y = int(input("Enter the second number: "))
 
-
 result = math.gcd(x,y)
 print(f"The GCF is: {result}")
