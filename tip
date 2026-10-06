@@ -14,6 +14,8 @@ elif service == "Good":
 elif service == "Great":
     print ("The tip is 25%.")
     print (f"The toal cost is {bill * tip[3]}.")
+
+    
 elif service == "bad":
     print ("The tip is 5%.")
     print(f"The total cost is {bill * tip[0]}.")
