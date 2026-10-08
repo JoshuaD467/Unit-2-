@@ -1,13 +1,14 @@
 def disease(P,N,R):
-    total = P
+    total = N
     day = 0
     currently_infected = N
     amount_infected = R 
-    while [0] <= P:
+    while total <= P:
         currently_infected * (R)
         total += N
         day += 1
-        
+        return currently_infected * (R)
     print(day)
+    print(currently_infected)
 
 disease(750,1,5)
